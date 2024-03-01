@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Energy Classement</title>
+    <style>
+        #image-list {
+            display: flex;
+            overflow-x: auto;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Hide scrollbar for Chrome, Safari, and Opera */
+        #image-list::-webkit-scrollbar {
+            display: none;
+        }
+
+        #image-list li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #image-list img {
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+            margin: 0 10px;
+        }
+
+        li {
+            text-align: center;
+        }
+        body{
+            background-color: black;
+        }
+        .monstername {
+            color: white;
+        }
+        ul {
+            position: relative;
+            top: 50vh;
+            transform: translateY(-50%);
+ 
+        }
+        @media screen and (max-width: 446px) {
+            #image-list {
+                flex-direction: column;
+            }
+            ul {
+                position: static;
+                top: 0;
+                transform: none;
+            }
+        }
+        @media screen and (max-width: 231px) {
+            #image-list img {
+                width: 80vw;
+                height: auto;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <ul id="image-list">
+        <li><img src="86be6554-4e12-435b-b8d0-bc492e68e436.webp" \><p class="monstername">Monster energy</p></li>
+        <li><img src="29f553fd-ac10-434b-a9b9-12eb40e606c8.webp" \><p class="monstername">Ultra Gold</p></li>
+        <li><img src="d4d13fe2-245e-4422-af6e-1dd369c0be8b.webp" \><p class="monstername">Ultra Black</p></li>
+        <li><img src="1cb31b0a-fd8d-42b4-8e3b-e9fcb0f6bb80.webp" \><p class="monstername">Ultra Watermelon</p></li>
+        <li><img src="b4aa6355-45ef-4a5e-8f27-c17dbba50003.webp" \><p class="monstername">Ultra Fiesta Mango</p></li>
+        <li><img src="bc17ca83-d4e3-4c5d-a8ad-414bc3e1b2d8.webp" \><p class="monstername">Ultra Paradise</p></li>
+        <li><img src="70ae1e0d-760a-4f94-9ebd-e0dc9917f08c.webp" \><p class="monstername">Ultra Violet</p></li>
+        <li><img src="abe6ac22-4972-4caa-9f51-f4fb8ee3c3f1.webp" \><p class="monstername">Ginger Brew / Mule</p></li>
+        <li><img src="e56044fb-1eb2-4cbd-a882-61e7e810277b.webp" \><p class="monstername">Aussie Lemonage / Juice</p></li>
+        <li><img src="a78db7bd-4c40-4942-af0c-fcaa326885cd.webp" \><p class="monstername">Pacific Punch / Punch</p></li>
+        <li><img src="03129094-b0f6-41d9-b188-ab0677afdf2c.webp" \><p class="monstername">Super dry / Nitro</p></li>
+        <li><img src="adb63939-1267-48bc-a378-6a9d3959ed37.webp" \><p class="monstername">Mixxd / Punch</p></li>
+        <li><img src="4c548bc1-7fc7-4932-85cd-1696f0b3f917.webp" \><p class="monstername">Pipeline Punch / Punch</p></li>
+        <li><img src="59ba5327-a832-44cb-ace1-f981531b5777.webp" \><p class="monstername">Assault</p></li>
+        <li><img src="5587a01b-3c83-42f7-a741-b29a1d534409.webp" \><p class="monstername">Zero Ultra</p></li>
+    </ul>
+</body>
+</html>
